@@ -1,0 +1,29 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+
+# Secrets and local config - never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Scan results / logs that may contain your network's IPs, MACs and device names
+*.log
+scan_results*.txt
+scan_results*.csv
+
+# Cached manufacturer list (if it is ever stored inside the project)
+manuf.gz
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
